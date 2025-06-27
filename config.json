@@ -1,0 +1,541 @@
+{
+    "en": {
+        "styles": {
+            "bg": "#161d36",
+            "bg-light": "#161d36",
+            "main-bg": "#060e29",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#161d36",
+            "text-head": "#ffffff",
+            "hero-title-text": "#ffffff",
+            "welcome-bonus-text": "#ff4c00",
+            "yellow": "#5178ff",
+            "yellow-button": "#ff4c00",
+            "button-text": "#ffffff",
+            "border-color": "#ffffff",
+            "casino-cards": "#0e193c",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#ffffff",
+            "pay-back": "#0e193c",
+            "providers-back": "#0e193c",
+            "faq-label": "#0e193c",
+            "bg-footer": "#161d36",
+            "copyright": "#ffffff",
+            "baseFont": {
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/9",
+                "isCustom": true
+            },
+            "primaryFont": {
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/8",
+                "isCustom": true
+            }
+        },
+        "seo": {
+            "title": "Nine Casino Review 2025: Top UK Platform with 6K+ Games & Big Bonuses",
+            "description": "Discover Nine Casino, a UK-friendly online casino offering over 6000 games, exciting bonuses, daily cashback, and a user-friendly mobile site. Learn about payment options, security, and how to register and log in.",
+            "canonical": "https:\/\/ninecasino.org",
+            "ogImage": "http:\/\/159.223.4.88:8000\/api\/images\/download\/48",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630,
+            "twitterSite": "@ninecasino",
+            "favicon": "http:\/\/159.223.4.88:8000\/api\/images\/download\/49",
+            "keywords": "casino, online casino, gambling, slots, table games"
+        },
+        "icons": {
+            "icon192": "http:\/\/159.223.4.88:8000\/api\/images\/download\/50"
+        },
+        "header": {
+            "logo": "http:\/\/159.223.4.88:8000\/api\/images\/download\/51",
+            "logoAlt": "Nine Casino Logo"
+        },
+        "nav": {
+            "signUp": "Log In",
+            "playNow": "Sign Up"
+        },
+        "hero": {
+            "title": "Welcome Bonus",
+            "textDesktop": "Exclusive welcome offer from",
+            "textMobile": "Exclusive welcome bonus from",
+            "playGame": "Play game",
+            "claimBonus": "Claim Bonus",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/52",
+            "mobileImage": "http:\/\/159.223.4.88:8000\/api\/images\/download\/53"
+        },
+        "topCasino": {
+            "title": "Top Casinos",
+            "allCasino": "All Casino"
+        },
+        "bonusDetails": {
+            "title": "Bonus Details",
+            "casino": "Casino",
+            "bonuses": "Bonuses",
+            "rate": "Rate",
+            "freeSpins": "Free Spins",
+            "moreInfo": "More Info",
+            "get": "Get",
+            "refresh": "Refresh"
+        },
+        "advantages": {
+            "title": "Advantages",
+            "items": [
+                "Curacao license",
+                "Wide selection of games",
+                "100% Welcome bonus",
+                "Cashback for loyal players",
+                "24\/7 customer support",
+                "Instant Play und Mobile Play-Modus"
+            ],
+            "knowMore": "Know more",
+            "appTitle": "Nine Casino APP",
+            "mobile": "http:\/\/159.223.4.88:8000\/api\/images\/download\/54",
+            "mobileAlt": "Nine Casino Mobile"
+        },
+        "games": {
+            "title": "Top Games",
+            "allGames": "All Games"
+        },
+        "about": {
+            "history": {
+                "title": "Nine Casino Online Review (UK)",
+                "description1": "Nine Casino was created in 2021 by Uno Digital Media B.V. While the site was originally built with players in Canada in mind, it supports UK players and gives them access to over 6,000 games from top makers Pragmatic Play, Spinomenal, BGaming, and Play'n GO. Because the website is user-friendly and support staff are quick to respond, Nine Win Casino catches the attention of players who like a big game collection and dependable service. Although the UK Gambling Commission does not license it, it has a license from Curacao which ensures players are kept safe to a large degree.",
+                "items": [],
+                "description2": "",
+                "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/55",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
+                "imageAlt": "Nine Casino Desktop",
+                "description3": ""
+            },
+            "connect": {
+                "title": "Nine Casino Registration",
+                "description1": "Registration at Nine Casino is easy, takes just a few minutes, and gives you access to many exciting games. Once registered, new players receive unique bonuses, customized promotions, and a gaming experience designed to make their gaming experience more enjoyable. Creating an account at Nine Casino UK takes just a few minutes:",
+                "items": [
+                    "Log in to the Nine Casino home page and click the \u201cRegister\u201d button.",
+                    "Provide your name, email address, date of birth, and address to complete your profile.",
+                    " Select the currency you would like to use and choose a strong password."
+                ],
+                "description2": "To verify your email address, open the link that was sent to you in an email. Once registration is complete, you can make deposits, receive welcome bonuses, and try different games. An account allows you to track your progress, manage your bonuses, and participate in promotions that match your goals."
+            },
+            "deposit1": {
+                "title": "Deposit Methods",
+                "description1": "Nine Casino supports various payment options suitable for UK players:",
+                "items": [
+                    "Visa\/MasterCard",
+                    "Skrill",
+                    "Neteller",
+                    "Paysafecard",
+                    "Bank Transfer"
+                ],
+                "description2": "The minimum deposit amount is \u00a330 to qualify for the welcome bonus, and all deposits are processed instantly without fees."
+            },
+            "deposit2": {
+                "title": "Nine Win Casino Withdrawal Methods",
+                "description1": "Withdrawals are generally processed quickly:",
+                "items": [
+                    "E-wallets (Skrill, Neteller) usually within 24 hours",
+                    "Card and bank transfers can take 3 to 5 business days"
+                ],
+                "description2": "The minimum withdrawal amount is \u00a320, and players must withdraw via the method they initially deposited with. There are no withdrawal fees."
+            }
+        },
+        "payMethod": {
+            "title": "Payment Methods",
+            "method": "Method",
+            "type": "Type",
+            "country": "Country",
+            "commission": "Commission",
+            "processingTime": "Processing Time",
+            "minimumDeposit": "Minimum Deposit",
+            "deposit": "Deposit"
+        },
+        "security": {
+            "title1": "Software Technologies",
+            "description1": "Partners of Nine Casino include industry favorites such as Pragmatic Play, Spinomenal, BGaming, and Play\u2019n GO. Thanks to these collaborations, people can play over 6,000 outstanding games. Every game has impressive graphics, and exciting sound and is powered by a proven RNG system. The casino is always updating its game library, so everyone playing enjoys the latest offerings.",
+            "title2": "Nine Casino Reviews Security",
+            "description2": "Keeping you safe and protecting your data are very important to Nine Casino. The Curacao Gambling License registered to the platform makes the casino adhere to fair and transparent guidelines. All sensitive information shared by players and finance-related data is secured with advanced SSL encryption, similar to the security used by leading banks everywhere. By encryption, all data remains safe from any unapproved access and cyber-attacks.\n\nAlong with strong security, the Nine Win Casino app encourages responsible gaming by making instruments available to players to control their playing habits. Among these are rules about how much money you can deposit, options to lock yourself out if needed, and tools for gamblers who may face trouble. A dedicated group of customer support members is present in the casino 24\/7 to help players with any worries or doubts about their gaming security."
+        },
+        "softwareProviders": {
+            "title": "Software Providers"
+        },
+        "application": {
+            "title": "App",
+            "description1": "Although there is no mobile app to download, Nine Casino 2 has created a mobile site that is fully functional with any iOS or Android device. With this mobile site, players can easily enjoy thousands of games, manage their accounts, and take advantage of all the casino features on their smartphones or tablets. The mobile site is fast, easy to use, and has all the same features as the main site, so you can enjoy great games even when you are away from your computer.",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/56",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Nine Casino Mobile"
+        },
+        "idioma": {
+            "title1": "Currencies",
+            "description1": "Players can use multiple currencies including British Pounds (GBP), US Dollars (USD), and Euros (EUR).",
+            "title2": "Languages",
+            "description2": "The casino website is available in English, catering primarily to the UK and international players."
+        },
+        "faq": {
+            "title": "FAQ",
+            "items": [
+                {
+                    "title": "Is Nine Casino legal in the UK?",
+                    "answer": "Nine Casino is accessible to UK players but does not hold a UK Gambling Commission license. It operates under a Curacao license."
+                },
+                {
+                    "title": "What is the minimum deposit?",
+                    "answer": "The minimum deposit to qualify for bonuses is \u00a330."
+                },
+                {
+                    "title": "How long do withdrawals take?",
+                    "answer": "E-wallet withdrawals are usually processed within 24 hours, while card and bank transfers can take 3-5 business days."
+                },
+                {
+                    "title": "Are there any wagering requirements?",
+                    "answer": "Yes, the welcome bonus has a 35x wagering requirement on both bonus and deposit amounts."
+                }
+            ]
+        },
+        "availableGames": {
+            "title": "Nine Win Casino Sister Sites Games Available to Play",
+            "description": "The range of games is another advantage of Nine Casino. The site features slot machines, table games, jackpot games, and even live dealer games. Most options are available in demo mode without registration and deposit. Players with an account can also take part in tournaments. For convenience, all entertainment is divided into categories, there is also a filter where you can select a developer, table theme, and other parameters.",
+            "column1": [
+                {
+                    "title": "Slots",
+                    "description": "With over 6,000 titles, Casino Nine offers everything from classic slots to the latest video slots. Popular games include Starburst, Book of the Dead, and Gates of Olympus. Slots with a buy feature contribute partially to wagering requirements."
+                },
+                {
+                    "title": "Live Dealer Games",
+                    "description": "For players seeking authentic casino interaction, Nine Casino features live dealer games hosted by professional croupiers. Popular live options include Live Blackjack, Live Roulette, and Live Baccarat, all streamed in real-time to your device."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Table Games",
+                    "description": "Nine Casino provides a solid selection of table games including multiple variants of Blackjack, Roulette, Baccarat, and Poker. These games offer classic casino experiences suitable for both beginners and seasoned players."
+                }
+            ]
+        },
+        "support": {
+            "title": "Nine Bet Casino Support",
+            "description1": "Nine Casino provides 24\/7 customer support through live chat and email (support@Nine Casino.com), ensuring players receive timely assistance with any issues or queries.",
+            "items": [],
+            "description2": "",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/57",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Nine Bet Casino Support"
+        },
+        "bonuses": {
+            "title": "Nine Win Casino Bonus Code and Promotions",
+            "description": "",
+            "column1": [
+                {
+                    "title": "Welcome Nine Casino Bonus",
+                    "description": "Nine Casino bonus code 2024 gives you a great welcome package on your first three deposits.\n\nOn your first deposit, your deposit will be matched by 100%, up to \u00a3250, and you will also be given 150 free spins on popular slots such as Starburst and Book of Dead.\nAn even better incentive: your second deposit entitles you to a 55% bonus, up to \u00a3250, plus you get an additional 150 free spins.\nYour third deposit is matched 100% up to \u00a3150, but you will not find any free spins in this bonus.\nYour welcome bonus has a 7-day usage time and a wagering requirement of 35x the bonus plus deposit, which is competitive compared to many casinos."
+                },
+                {
+                    "title": "High Roller Bonus",
+                    "description": "If you're looking for an extra bit of risk, high rollers at Nine Casino can claim a 50% bonus up to \u00a3500 by entering the promo code. This bonus can only be claimed once per week and expires 3 days after you claim it."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Nine Casino Promo Code UK 2024 and Daily Cashback",
+                    "description": "Every day, Nine Casino's system gives players back a percentage of their previous day's losses, depending on how they funded their account.\n\nA deposit of between \u00a320 and \u00a3500 will give you up to \u00a325 cashback.\nIf you deposit between \u00a3501 and \u00a31,000, you'll get up to \u00a360 cashback.\nFor credits, where the deposit is between \u00a31,001 and \u00a32,500, you can get up to \u00a3200 cashback.\nThose who deposit between \u00a32,501 and \u00a35,000 will get up to \u00a3500 cashback.\nIf you deposit over \u00a35,001, you're eligible to receive up to \u00a31,250 cashback at 12.15%.\nVIP players can also get up to 25% cashback as an invite."
+                },
+                {
+                    "title": "Nine Casino Free Chip the Wheel",
+                    "description": "Players who make in-game purchases can get a chance to spin the wheel and get free coins, more spins, and rewards in the mini-games section. Bonuses allow players to try to win more and extend their casino experience, while the Nine Casino app encourages its users to make deposits and stay active."
+                }
+            ]
+        },
+        "prosAndCons": {
+            "title": "Nine Casino Advantages",
+            "description": "Before registering, players are advised to study the advantages of the gambling platform. Below are all the pros and cons.",
+            "pros": {
+                "title": "Pros",
+                "items": [
+                    "Curacao license",
+                    "Wide selection of games",
+                    "100% Welcome bonus",
+                    "Cashback for loyal players",
+                    "24\/7 customer support"
+                ]
+            },
+            "cons": {
+                "title": "Cons",
+                "items": [
+                    "No mobile application",
+                    "No contact by phone number"
+                ]
+            }
+        },
+        "footer": {
+            "logo": "https:\/\/paf-casino-online.com\/_next\/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9568bf57.svg&w=142&q=75",
+            "copyright": "Paf Casino"
+        }
+    },
+    "de": {
+        "styles": {
+            "bg": "#161d36",
+            "bg-light": "#161d36",
+            "main-bg": "#060e29",
+            "text": "#ffffff",
+            "text-black": "#ffffff",
+            "table-head": "#161d36",
+            "text-head": "#ffffff",
+            "hero-title-text": "#ffffff",
+            "welcome-bonus-text": "#ff4c00",
+            "yellow": "#5178ff",
+            "yellow-button": "#ff4c00",
+            "button-text": "#ffffff",
+            "border-color": "#ffffff",
+            "casino-cards": "#0e193c",
+            "bonus-border-head": "#efefdc",
+            "bonus-border": "#ffffff",
+            "pay-back": "#0e193c",
+            "providers-back": "#0e193c",
+            "faq-label": "#0e193c",
+            "bg-footer": "#161d36",
+            "copyright": "#ffffff",
+            "baseFont": {
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/9",
+                "isCustom": true
+            },
+            "primaryFont": {
+                "value": "http:\/\/159.223.4.88:8000\/api\/fonts\/download\/8",
+                "isCustom": true
+            }
+        },
+        "seo": {
+            "title": "Nine Casino Deutschland - Freispiele | Bonus Codes",
+            "description": "Nine Casino-Bewertungen, Boni, Freispiele und Bewertungen von echten Spielern. Spielen Sie kostenlos in der Demoversion des Casinos",
+            "canonical": "https:\/\/ninecasino.org\/de",
+            "ogImage": "http:\/\/159.223.4.88:8000\/api\/images\/download\/48",
+            "ogImageWidth": 1200,
+            "ogImageHeight": 630,
+            "twitterSite": "@ninecasino",
+            "favicon": "http:\/\/159.223.4.88:8000\/api\/images\/download\/49",
+            "keywords": "casino, online casino, gambling, slots, table games"
+        },
+        "icons": {
+            "icon192": "http:\/\/159.223.4.88:8000\/api\/images\/download\/50"
+        },
+        "header": {
+            "logo": "http:\/\/159.223.4.88:8000\/api\/images\/download\/51",
+            "logoAlt": "Nine Casino Logo"
+        },
+        "nav": {
+            "signUp": "Einloggen",
+            "playNow": "Einschreiben"
+        },
+        "hero": {
+            "title": "Willkommens bonus",
+            "textDesktop": "Exklusives Willkommensangebot von",
+            "textMobile": "Exklusiver Willkommensbonus von",
+            "playGame": "Play game",
+            "claimBonus": "Bonus beanspruchen",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/52",
+            "mobileImage": "http:\/\/159.223.4.88:8000\/api\/images\/download\/53"
+        },
+        "topCasino": {
+            "title": "Top-Kasinos",
+            "allCasino": "Alle Kasinos"
+        },
+        "bonusDetails": {
+            "title": "Bonus-Details",
+            "casino": "Kasino",
+            "bonuses": "Boni",
+            "rate": "Rate",
+            "freeSpins": "Frei Spins",
+            "moreInfo": "Mehr Info",
+            "get": "Get",
+            "refresh": "Aktualisieren"
+        },
+        "advantages": {
+            "title": "Vorteile",
+            "items": [
+                "Besonderes Augenmerk auf ein bestimmtes Land",
+                "Riesige Auswahl an Spielen",
+                "Chat-, Telefon- und E-Mail-Support sind rund um die Uhr verf\u00fcgbar",
+                "128-Bit-SSL-Schl\u00fcssel",
+                "Zertifikat"
+            ],
+            "knowMore": "Mehr wissen",
+            "appTitle": "Nine Casino APP",
+            "mobile": "http:\/\/159.223.4.88:8000\/api\/images\/download\/54",
+            "mobileAlt": "Nine Casino Deutschland Mobile"
+        },
+        "games": {
+            "title": "Top-Spiele",
+            "allGames": "Alle Spiele"
+        },
+        "about": {
+            "history": {
+                "title": "Nine Casino Erfahrungen",
+                "description1": "Nine Casino ist ein junges Online-Casino, das 2020 von der Dux Group NV gegr\u00fcndet wurde. Nine Casino ist von der Curacao Gambling Commission lizenziert. Wir haben versucht, alle Parameter dieses Casinos zu analysieren, um eine ehrliche und informative Bewertung f\u00fcr Sie vorzubereiten. Der erste Eindruck von der Nine Casino Website ist sehr positiv. Die Seite ist in hellen Farben gestaltet und hat eine gro\u00dfe Anzahl animierter Fenster, die sehr neckisch sind. Der Name des Casinos ist als Spielautomat stilisiert. In der oberen rechten Ecke befindet sich ein Men\u00fc, in dem Spieler sich registrieren oder sich bei ihren Konten anmelden k\u00f6nnen. Auf der linken Seite befindet sich das Hauptmen\u00fc, in dem die Spiele in Kategorien unterteilt sind. Im gleichen Teil der Seite finden Sie aktuelle Aktionen. Unten auf der Seite befindet sich ein Men\u00fc, in dem Sie die verf\u00fcgbaren Zahlungssysteme anzeigen, die Benutzervereinbarung und andere wichtige Informationen lesen k\u00f6nnen. Nine Casino ist in verschiedenen Sprachen verf\u00fcgbar. Sie k\u00f6nnen die Sprache oben auf der Hauptseite in der N\u00e4he des Registrierungsfensters \u00e4ndern.",
+                "items": [],
+                "description2": "",
+                "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/55",
+                "imageSizeModifier": 0,
+                "imageYModifier": 0,
+                "imageXModifier": 0,
+                "imageAlt": "Nine Casino Deutschland Desktop",
+                "description3": ""
+            },
+            "connect": {
+                "title": "Nine Casino Registrierung",
+                "description1": "Die Website von Nine Casino ist in leuchtenden Farben gehalten. Einige Elemente sind blau oder rot hervorgehoben. Die Anmeldung bei Nine Casino ist sehr einfach. Sie m\u00fcssen dem Casino einige pers\u00f6nliche Informationen mitteilen und Ihr Konto wird sofort erstellt. Sie m\u00fcssen nicht in ein landbasiertes Casino oder B\u00fcro kommen, um die Benutzerverifizierung abzuschlie\u00dfen, bevor Sie mit dem Spielen beginnen k\u00f6nnen. Hier sind die grundlegenden Schritte zur Registrierung und Anmeldung bei Nine Casino:",
+                "items": [
+                    "Gehen Sie auf die offizielle Website des Casinos.",
+                    "Klicken Sie in der oberen linken Ecke des Bildschirms auf die blaue Schaltfl\u00e4che \u201eBeitreten\u201c.",
+                    "Geben Sie Ihre E-Mail-Adresse, Ihren Benutzernamen, Ihr Passwort und Ihre Mobiltelefonnummer ein. Klicken Sie dann auf die Schaltfl\u00e4che Weiter.",
+                    "Geben Sie Ihren Namen und Ihr Geburtsdatum ein und klicken Sie dann auf die Schaltfl\u00e4che Weiter.",
+                    "Best\u00e4tigen Sie die gew\u00fcnschte W\u00e4hrung. Geben Sie dann Ihre Adresse ein."
+                ],
+                "description2": ""
+            },
+            "deposit1": {
+                "title": "Einzahlungsmethoden",
+                "description1": "Nine Casino ist bestrebt, die W\u00fcnsche aller Spieler zu erf\u00fcllen, daher bietet es eine gro\u00dfe Auswahl an Zahlungssystemen an. Sie k\u00f6nnen mit Boku, Maestro, MasterCard, Neteller, Paysafe Card, Skrill, Trustly, Visa, Zimpler und GiroPay einzahlen. Die Mindesteinzahlung betr\u00e4gt 10 Euro; F\u00fcr das Boku-Zahlungssystem betr\u00e4gt die Mindesteinzahlung 15 Euro. Der H\u00f6chstbetrag wird nicht von Nine Casino festgelegt. Jedes Zahlungssystem kann jedoch seine eigenen Limits festlegen. Alle Einzahlungen werden sofort gutgeschrieben. Die Provision von 15 % wird nur auf Einzahlungen erhoben, die \u00fcber das Boku-Zahlungssystem get\u00e4tigt werden. Sie k\u00f6nnen Gewinne mit Zahlungssystemen wie Neteller, Paysafe Card, Skrill, Trustly und Visa abheben.",
+                "items": [],
+                "description2": ""
+            },
+            "deposit2": {
+                "title": "Auszahlungsmethoden",
+                "description1": "Der Mindestabhebungsbetrag betr\u00e4gt 10 Euro, der H\u00f6chstbetrag darf 1500 Euro pro Woche nicht \u00fcberschreiten. Die Frist f\u00fcr die Pr\u00fcfung eines Antrags auf Auszahlung von Geldern betr\u00e4gt bis zu 3 Werktage. Die Frist f\u00fcr den Erhalt von Geldern h\u00e4ngt vom Zahlungssystem ab und betr\u00e4gt etwa 3 bis 5 Werktage. Nine Casino erhebt keine Auszahlungsgeb\u00fchren. Bitte beachten Sie jedoch, dass das Zahlungssystem eine zus\u00e4tzliche Geb\u00fchr erheben kann. Nine Casino akzeptiert mehrere W\u00e4hrungen, darunter EUR, GBP, AUD, CAD, NZD und SEK.",
+                "items": [],
+                "description2": ""
+            }
+        },
+        "payMethod": {
+            "title": "Zahlungsmethoden",
+            "method": "Methode",
+            "type": "Typ",
+            "country": "Land",
+            "commission": "Kommission",
+            "processingTime": "Bearbeitungszeit",
+            "minimumDeposit": "Mindesteinlage",
+            "deposit": "Einzahlung"
+        },
+        "security": {
+            "title1": "Softwaretechnologien",
+            "description1": "Unsere \u00dcberpr\u00fcfung von Nine Casino zeigte eine erstaunliche Auswahl von \u00fcber 6.000 Spielen von Top-Softwareanbietern. Spin-Slots von Booming Games, Play'n Go und Microgaming. Entdecken Sie auch Untertitel wie Mega Ways, Bonusk\u00e4ufe und Lucky Picks und finden Sie gro\u00dfartige neue und beliebte Slots, die Sie im Nine Casino spielen k\u00f6nnen. Gro\u00dfe progressive Jackpots sind auch bei Nine Casinos verf\u00fcgbar. Spielen Sie Mega Moolah Immortal Romance, Jackpot Rango, Super Multiplier Progressive und andere gro\u00dfartige Spiele, um bei jeder Drehung den Jackpot zu gewinnen. Spielen Sie ausgew\u00e4hlte Slots von Pragmatic Play, um Turnierpreise zu gewinnen und der gl\u00fcckliche Gewinner von zuf\u00e4lligen Geldpreisen zu sein. W\u00fcrfel- und beliebte Kartenspiele sind ebenfalls verf\u00fcgbar, ebenso wie die beliebten Live-Spielshows von Evolution Gaming wie Crazy Time und Live Deal or No Deal. Unsere Rezensenten bei Nine Casino best\u00e4tigen, dass alle Spiel- und Softwareanbieter als fair zertifiziert sind, spielen Sie also eine gro\u00dfe Auswahl an Spielen auf dieser f\u00fchrenden Gl\u00fccksspielseite.",
+            "title2": "Sicherheit",
+            "description2": "Wenn es um Sicherheit geht, unternimmt das Casino gro\u00dfe Anstrengungen, um sicherzustellen, dass die pers\u00f6nlichen und finanziellen Informationen seiner Kunden jederzeit sicher sind. Sie verwenden ein branchen\u00fcbliches Sicherheitsprotokoll, das verschl\u00fcsselt und authentifiziert ist, um Informationen privat zu halten. Sie verwenden auch einen Zufallszahlengenerator, um das Ergebnis ihrer Spiele zu bestimmen. Das bedeutet, dass sie immer ehrliche Ergebnisse liefern, die zuf\u00e4llig sind und nicht manipuliert wurden. Nine Casino garantiert hohe Sicherheit f\u00fcr Casino-Spieler. Alle im Nine Casino erstellten Informationen werden mit der 256-Bit-Secure-Socket-Layer-Technologie (SSL) verschl\u00fcsselt. Ihre Kreditkartendaten werden verschl\u00fcsselt und niemals in den Systemen gespeichert \u2013 sie werden \u00fcber einen verschl\u00fcsselten Kanal direkt an unsere Zahlungssysteme \u00fcbertragen. Die Lizenz ist eine zus\u00e4tzliche Garantie f\u00fcr die Sicherheit der Benutzerdaten."
+        },
+        "softwareProviders": {
+            "title": "Software-Anbieter"
+        },
+        "application": {
+            "title": "Nine Casino App",
+            "description1": "NineCasino ist auch unterwegs f\u00fcr Spieler verf\u00fcgbar, die gerne ihre mobilen Ger\u00e4te wie die neuesten Smartphones und Tablets verwenden. Es ist nicht erforderlich, zus\u00e4tzliche Software herunterzuladen, da das Casino mit den meisten mobilen Browsern kompatibel ist. Dies bedeutet, dass Spieler mit demselben Konto problemlos zwischen Ger\u00e4ten wechseln k\u00f6nnen.",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/56",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Nine Casino Deutschland Mobile"
+        },
+        "idioma": {
+            "title1": "W\u00e4hrungen",
+            "description1": "Nine Casino akzeptiert mehrere W\u00e4hrungen, darunter EUR, GBP, AUD, CAD, NZD und SEK.",
+            "title2": "Sprachen",
+            "description2": "Nein Casino-Spieler k\u00f6nnen die deutsche, englische, tschechische und franz\u00f6sische Version der Seite nutzen."
+        },
+        "faq": {
+            "title": "FAQ-Sektion",
+            "items": [
+                {
+                    "title": "Ist es sicher, bei Nine Casino zu spielen?",
+                    "answer": "Ja! Ihre Daten werden streng verschl\u00fcsselt. Die T\u00e4tigkeit des Casinos wird von den zust\u00e4ndigen Beh\u00f6rden lizenziert und reguliert."
+                },
+                {
+                    "title": "Ab welchem Alter kann ich im Nine Casino wetten?",
+                    "answer": "Gl\u00fccksspiele k\u00f6nnen von Personen \u00fcber 18 Jahren gespielt werden."
+                },
+                {
+                    "title": "Wie schlie\u00dfe ich mein Nine Casino-Konto?",
+                    "answer": "Spieler k\u00f6nnen ihr Nine Casino-Konto in ihren Kontoeinstellungen schlie\u00dfen. Dar\u00fcber hinaus k\u00f6nnen Spieler den Support per E-Mail oder Anruf kontaktieren und ihn bitten, seine Konten f\u00fcr sie zu schlie\u00dfen."
+                }
+            ]
+        },
+        "availableGames": {
+            "title": "Nine Casino Spiele",
+            "description": "Nine Casino bietet seinen Spielern eine riesige Auswahl an Unterhaltung. Nine Casino arbeitet mit f\u00fchrenden Softwareanbietern wie NetEnt, Pragmatic Play, Blueprint, IGT, Big Time Gaming, Red Tiger, Eyecon, Barcrest, NextGen, Microgaming, Yggdrasil, Nektan, Realistic, ELK Studios, WMS, Lightning Box, JustForTheWin, Triple zusammen Rand. Studios, Inspired Games, IronDog, The Games Company, Foxium, Gamevy, SG, Stormcraft Studios und viele mehr. Die Gesamtzahl der Spiele auf der Seite ist sehr beeindruckend. Spieler k\u00f6nnen durch Spielkategorien wie Spielautomaten, Kartenspiele, Tischspiele und progressive Jackpot-Spiele navigieren.",
+            "column1": [
+                {
+                    "title": "Slots",
+                    "description": "Die Website von Nine Casino hat ungef\u00e4hr 500 der besten Spielautomaten in der Kategorie Spielautomaten gesammelt. Das Angebot an Spielautomatenherstellern ist nicht weniger vielf\u00e4ltig, darunter NetEnt, Pragmatic Play, Blueprint, IGT, Big Time Gaming, Red Tiger, Eyecon, Barcrest, NextGen, Microgaming und andere. Die Seite hat auch Spielautomaten mit progressiven Jackpots. Unter jedem der Spielautomaten wird der maximale Gewinn oder Jackpot angezeigt. In dieser Kategorie k\u00f6nnen Sie so ber\u00fchmte Spielautomaten wie Alaskan Fishing, 1000 Islands, 5 Reel Drive, Avalon, Golden Egypt, Beautiful Dice, Cash Buster Towers, Maya Bonus, 100 Dam und 7\u00d77 Treasure sehen. Auf der Website von Nine Casino gibt es keine M\u00f6glichkeit, Spielautomaten nach der Gr\u00f6\u00dfe des Spielfelds und anderen Parametern zu filtern, aber es gibt eine hervorragende M\u00f6glichkeit, Spielautomaten nach Hersteller auszuw\u00e4hlen."
+                },
+                {
+                    "title": "Brettspiele",
+                    "description": "Nine Casino hat \u00fcber 150 Spiele in dieser Kategorie. Der Nachteil von Nine Casino ist die Tatsache, dass es keine separaten Kategorien f\u00fcr Tisch- oder Kartenspiele gibt. Beide Kategorien befinden sich im Abschnitt `Alle Spiele`. Spieler k\u00f6nnen Spiele jedoch nach Anbieter sortieren. Au\u00dferdem kann der Spieler, falls gew\u00fcnscht, die Suchleiste verwenden, um das gew\u00fcnschte Spiel zu finden. Nine Casino hat Spiele der folgenden Hersteller: NetEnt, Nektan, Realistic, Inspired Games und Golden Rock. Unter den Spielarten k\u00f6nnen Sie Roulette (Amerikanisches Roulette, Europ\u00e4isches Roulette), Blackjack (Hi-Lo Blackjack, Classic Blackjack), Baccarat (Golden Baccarat und Baccarat 9) sehen. Die Nine Casino Seite hat auch Poker, Craps und Monopoly-Spiele."
+                }
+            ],
+            "column2": []
+        },
+        "support": {
+            "title": "Nine Casino Live-Chat",
+            "description1": "Wenn Sie beim Spielen im Nine Casino Hilfe ben\u00f6tigen, ist der Support rund um die Uhr f\u00fcr iOS, Android und Desktop verf\u00fcgbar. W\u00e4hlen Sie aus drei Optionen, einschlie\u00dflich eines praktischen FAQ-Bereichs, in dem Sie viele beliebte Fragen und Antworten anzeigen k\u00f6nnen. E-Mail an den Kundensupport ist die zweite Option, aber unsere Nine Casino-Rezensenten bevorzugen Live-Chat. Diese Funktion bietet die schnellste Reaktionszeit und Sie k\u00f6nnen mit hilfreichen Live-Agenten auf Englisch und Deutsch chatten.",
+            "items": [],
+            "description2": "",
+            "image": "http:\/\/159.223.4.88:8000\/api\/images\/download\/57",
+            "imageSizeModifier": 0,
+            "imageYModifier": 0,
+            "imageXModifier": 0,
+            "imageAlt": "Nine Bet Casino Live-Chat"
+        },
+        "bonuses": {
+            "title": "Nine Casino Deutsch Bonus",
+            "description": "",
+            "column1": [
+                {
+                    "title": "Willkommensbonus",
+                    "description": "Allen neuen Spielern wird ein Willkommensbonus angeboten. Spieler erhalten einen 100%-Bonus von bis zu 200 \u20ac auf ihre erste Einzahlung. Um sich f\u00fcr den Bonus zu qualifizieren, muss der Spieler mindestens 10 \u20ac auf sein Konto einzahlen. Es ist kein Aktionscode erforderlich. Das Guthaben wird dem Bonuskonto automatisch gutgeschrieben. Die Bonusgelder haben eine 40-fache Wettanforderung Ihres Einzahlungsbetrags und der Bonusbetrag (z. B. 10 \u20ac Einzahlung + 10 \u20ac Bonus * 40 = 800 \u20ac) muss abgeschlossen sein, bevor Sie Ihre Gewinne abheben k\u00f6nnen."
+                }
+            ],
+            "column2": [
+                {
+                    "title": "Treueprogramm",
+                    "description": "F\u00fcr regelm\u00e4\u00dfige Spieler bietet die Website von Nine Casino ein Treueprogramm. Durch die Erf\u00fcllung der Umsatzbedingungen wird der Spieler ein VIP-Kunde oder besser gesagt ein VIP-Diamant. Dieses Programm wurde speziell entwickelt, um alle Bed\u00fcrfnisse der Spieler zu erf\u00fcllen. Als VIP-Spieler erhalten Sie Vorteile wie 24\/7-Support mit einem pers\u00f6nlichen Manager, exklusive Angebote und Sonderangebote, das Recht auf Sonderboni wie High Roller Rewards sowie h\u00e4ufigere und gro\u00dfz\u00fcgigere Werbeaktionen."
+                }
+            ]
+        },
+        "prosAndCons": {
+            "title": "Nine Casino Vorteile",
+            "description": "",
+            "pros": {
+                "title": "Vorteile",
+                "items": [
+                    "Besonderes Augenmerk auf ein bestimmtes Land",
+                    "Riesige Auswahl an Spielen",
+                    "Chat-, Telefon- und E-Mail-Support sind rund um die Uhr verf\u00fcgbar",
+                    "128-Bit-SSL-Schl\u00fcssel",
+                    "Zertifikat",
+                    "Instant Play und Mobile Play-Modus"
+                ]
+            },
+            "cons": {
+                "title": "",
+                "items": []
+            }
+        },
+        "footer": {
+            "logo": "http:\/\/159.223.4.88:8000\/api\/images\/download\/59",
+            "copyright": "Nine Casino"
+        }
+    },
+    "langs": [
+        {
+            "code": "en",
+            "name": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439",
+            "isDefault": true
+        },
+        {
+            "code": "de",
+            "name": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439",
+            "isDefault": false
+        }
+    ]
+}

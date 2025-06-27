@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <script src="./index.js"></script>
+
+    <style>
+      @font-face {
+        font-family: "";
+        src: url("_assets/fonts/1751023915_Montserrat-Black.ttf");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <style>
+      @font-face {
+        font-family: "";
+        src: url("_assets/fonts/1751024071_Roboto-Medium.ttf");
+        font-weight: normal;
+      }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1751024499_logo.e79744d5" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Nine Casino Review 2025: Top UK Platform with 6K+ Games &amp; Big Bonuses</title>
+    <meta name="description"
+      content="Discover Nine Casino, a UK-friendly online casino offering over 6000 games, exciting bonuses, daily cashback, and a user-friendly mobile site. Learn about payment options, security, and how to register and log in.">
+    <link rel="canonical" href="https://ninecasino.org">
+    <meta property="og:title" content="Nine Casino Review 2025: Top UK Platform with 6K+ Games &amp; Big Bonuses">
+    <meta property="og:description"
+      content="Discover Nine Casino, a UK-friendly online casino offering over 6000 games, exciting bonuses, daily cashback, and a user-friendly mobile site. Learn about payment options, security, and how to register and log in.">
+    <meta property="og:url" content="https://ninecasino.org">
+    <meta property="og:site_name" content="Nine Casino Review 2025: Top UK Platform with 6K+ Games &amp; Big Bonuses">
+    <meta property="og:locale" content="en">
+    <meta property="og:image" content="_assets/images/1751024287_banner.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ninecasino">
+    <meta name="twitter:title" content="Nine Casino Review 2025: Top UK Platform with 6K+ Games &amp; Big Bonuses">
+    <meta name="twitter:description"
+      content="Discover Nine Casino, a UK-friendly online casino offering over 6000 games, exciting bonuses, daily cashback, and a user-friendly mobile site. Learn about payment options, security, and how to register and log in.">
+    <meta name="twitter:image" content="_assets/images/1751024287_banner.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1751024324_image 17.webp" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en">
+    <link rel="apple-touch-icon" href="" sizes="96x96">
+    <link rel="icon" href="_assets/images/1751024463_icon-192x192.webp" type="image/webp" sizes="192x192">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="casino, online casino, gambling, slots, table games">
+    <link rel="icon" type="image/x-con" href="_assets/images/1751024324_image 17.webp">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preload" href="_assets/images/1751024926_hero-mobile.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="./assets/icons/faq/ph--plus-bold.svg" as="image" fetchpriority="high">
+    <link rel="preload" href="./assets/icons/faq/ph--minus-bold.svg" as="image" fetchpriority="high">
+    <meta name="next-head-count" content="40">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="headerBlock">
+          <div class="headerLogoContainer"><a href="/" aria-label="Main page"><img class="header__logo logo"
+            src="_assets/images/1751024499_logo.e79744d5" alt="Nine Casino Logo" /></a></div>
+          <ul class="nav__list">
+              <li class="nav__item" style="background: transparent;">
+                <select class="nav__select">
+                    <option value="en">Английский</option>
+                    <option value="de">Немецкий</option>
+                </select>
+              </li>
+            <li class="nav__item"><a class="nav__link" href="casino.html?id=example-offer-id"
+              aria-label="Log In" id="navSignUp"> Log In </a></li>
+            <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge"
+              href="casino.html?id=example-offer-id" aria-label="Sign Up" id="navPlayNow"> Sign Up </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section class="heroContainer">
+          <div class="hero">
+            <div class="heroBlock block">
+              <div class="heroGroup">
+                <h2 class="heroTitle">Welcome Bonus</h2>
+                <div class="heroTextGroup">
+                  <p class="heroText heroTextDesktop">Exclusive welcome offer from</p>
+                  <p class="heroText heroTextMobile">Exclusive welcome bonus from</p>
+                  <p class="heroText heroTextBonus" id="bonusText"></p>
+                </div><a class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                  class="heroButton btn btn--large">Claim Bonus</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="heroUnder"></div>
+        </section>
+        <div class="bonusesCircleContainer">
+          <section class="topCasino">
+            <div class="container">
+              <div class="topCasinoBlock block">
+                <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                </h2>
+                <div class="topCasinoGroup" id="casinoCardContainer">
+                  <!-- Casino cards will be dynamically inserted here --></div><button
+                  class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+              </div>
+            </div>
+          </section>
+          <section class="bonusDetails" id="bonuses">
+            <div class="container">
+              <div class="bonusDetailsBlock block">
+                <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                <div class="bonusDetailsGroup">
+                  <div class="bonusTable">
+                    <div class="bogradientContainer">
+                      <div class="bonusTableRow bonusTableHeader">
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText">Rate</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText">More Info</p>
+                        </div>
+                        <div class="bonusTableHead">
+                          <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                        </div>
+                      </div>
+                    </div><!-- Bonus rows will be dynamically inserted here -->
+                    <div id="bonusTableRows"></div>
+                  </div>
+                </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                </button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="advantagesCircleContainer">
+          <section class="advantages">
+            <div class="container">
+              <div class="advantagesBlock block">
+                <div class="advantagesDescription">
+                  <h2 class="advantagesTitle title">Advantages</h2>
+                  <ul class="advantagesList">
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Curacao license</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Wide selection of games</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">100% Welcome bonus</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Cashback for loyal players</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">24/7 customer support</p>
+                      </li>
+                      <li class="advantagesItem"><img class="advantagesStar" width="30" height="29"
+                        src="./assets/images/advantages/star.png" alt="Casino advantages item" />
+                        <p class="advantagesText">Instant Play und Mobile Play-Modus</p>
+                      </li>
+                  </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                    class="advantagesButton btn btn--large">Know more</span></a>
+                </div>
+                <div class="advantagesMobile">
+                  <h2 class="advantagesTitle title advantagesAppTitle">Nine Casino APP</h2><img
+                    class="advantagesMobilePhone" src="_assets/images/1751025258_mobile.webp" title="Nine Casino Mobile"
+                    alt="Nine Casino Mobile" />
+                  <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                    target="_blank"><img class="advantagesStore" width="181" height="53"
+                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Nine Casino Mobile"/></a><a
+                      href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                        class="advantagesStore" width="181" height="54" title="Nine Casino Mobile"
+                        src="./assets/images/advantages/google-play.webp" alt="android App" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="games" id="games">
+            <div class="container">
+              <div class="gamesBlock block">
+                <h2 class="gamesTitle title"><span>Top Games</span></h2>
+                <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                </div><a class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                  class="gamesButton btn btn--large">All Games</span></a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="historyCircleContainer">
+          <section class="history">
+            <div class="container">
+              <div class="historyBlock block">
+                <h1 class="historyTitle title">Nine Casino Online Review (UK)</h1>
+                <div class="historyGroup">
+                  <div class="historyColumn">
+                    <div class="historyText">
+                      <p class="historyDescription">Nine Casino was created in 2021 by Uno Digital Media B.V. While the site was originally built with players in Canada in mind, it supports UK players and gives them access to over 6,000 games from top makers Pragmatic Play, Spinomenal, BGaming, and Play'n GO. Because the website is user-friendly and support staff are quick to respond, Nine Win Casino catches the attention of players who like a big game collection and dependable service. Although the UK Gambling Commission does not license it, it has a license from Curacao which ensures players are kept safe to a large degree.</p>
+                      <ul class="historyList">
+                      </ul>
+                      <p class="historyDescription"></p>
+                    </div>
+                  </div>
+                  <div class="historyColumn"><img class="historyImage" 
+                    src="_assets/images/1751025467_MacBook-Pro.webp" alt="Nine Casino Desktop" /></div>
+                </div>
+                <p class="historyDescription"></p>
+              </div>
+            </div>
+          </section>
+
+          <section class="connect">
+            <div class="container">
+                <div class="connectBlock block">
+                  <h2 class="connectTitle title">Nine Casino Registration</h2>
+                  <div class="connectGroup">
+                    <p class="connectDescription">Registration at Nine Casino is easy, takes just a few minutes, and gives you access to many exciting games. Once registered, new players receive unique bonuses, customized promotions, and a gaming experience designed to make their gaming experience more enjoyable. Creating an account at Nine Casino UK takes just a few minutes:</p>
+                    <ul class="connectList">
+                        <li class="connectItem">Log in to the Nine Casino home page and click the “Register” button.</li>
+                        <li class="connectItem">Provide your name, email address, date of birth, and address to complete your profile.</li>
+                        <li class="connectItem"> Select the currency you would like to use and choose a strong password.</li>
+                    </ul>
+                    <p class="connectDescription">To verify your email address, open the link that was sent to you in an email. Once registration is complete, you can make deposits, receive welcome bonuses, and try different games. An account allows you to track your progress, manage your bonuses, and participate in promotions that match your goals.</p>
+                  </div>
+                </div>
+            </div>
+          </section>
+
+          <section class="deposit">
+            <div class="container">
+              <div class="depositBlock block">
+                <div class="depositGroup">
+                  <div class="depositColumn">
+                    <h2 class="depositTitle title"> Deposit Methods </h2>
+                    <p class="depositDescription"> Nine Casino supports various payment options suitable for UK players: </p>
+                    <ul class="depositList">
+                        <li class="depositItem">Visa/MasterCard</li>
+                        <li class="depositItem">Skrill</li>
+                        <li class="depositItem">Neteller</li>
+                        <li class="depositItem">Paysafecard</li>
+                        <li class="depositItem">Bank Transfer</li>
+                    </ul>
+                    <p class="depositDescriptionLast"> The minimum deposit amount is £30 to qualify for the welcome bonus, and all deposits are processed instantly without fees. </p>
+                  </div>
+                  <div class="depositColumn">
+                    <h2 class="depositTitle depositWithdrawTitle title"> Nine Win Casino Withdrawal Methods </h2>
+                    <p class="depositDescription"> Withdrawals are generally processed quickly: </p>
+                    <ul class="depositList">
+                        <li class="depositItem">E-wallets (Skrill, Neteller) usually within 24 hours</li>
+                        <li class="depositItem">Card and bank transfers can take 3 to 5 business days</li>
+                    </ul>
+                    <p class="depositDescriptionLast"> The minimum withdrawal amount is £20, and players must withdraw via the method they initially deposited with. There are no withdrawal fees. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="payMethod">
+          <div class="container">
+            <div class="payMethodBlock block">
+              <h2 class="payMethodTitle title">Payment Methods</h2>
+              <div class="payMethodGroup">
+                <div class="payMethodRow payMethodRowHeader">
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent payMethodMethod">Method</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent">Type</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent">Country</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent">Commission</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent payMethodItemWide">Processing Time</div>
+                  </div>
+                  <div class="payMethodItem">
+                    <div class="payMethodItemContent payMethodItemWide">Minimum Deposit</div>
+                  </div>
+                  <div class="payMethodItem payMethodItemDeposit">
+                    <div class="payMethodItemDeposit">Deposit</div>
+                  </div>
+                </div><!-- Payment rows will be dynamically inserted here -->
+                <div id="paymentRowsContainer"></div>
+              </div><!-- Mobile payment cards will be dynamically inserted here -->
+              <div class="payMethodGroupTwo" id="paymentCardsContainer"></div>
+            </div>
+          </div>
+        </section>
+        <div class="paymentCircleContainer">
+          <section class="providers">
+            <div class="container">
+              <div class="providersBlock block">
+                <div class="providersGroup">
+                  <div class="providersColumn">
+                    <h2 class="providersTitle title"> Software Technologies </h2>
+                    <p class="providersDescription"> Partners of Nine Casino include industry favorites such as Pragmatic Play, Spinomenal, BGaming, and Play’n GO. Thanks to these collaborations, people can play over 6,000 outstanding games. Every game has impressive graphics, and exciting sound and is powered by a proven RNG system. The casino is always updating its game library, so everyone playing enjoys the latest offerings. </p>
+                  </div>
+                  <div class="providersColumn">
+                    <h2 class="providersTitle title"> Nine Casino Reviews Security </h2>
+                    <p class="providersDescription"> Keeping you safe and protecting your data are very important to Nine Casino. The Curacao Gambling License registered to the platform makes the casino adhere to fair and transparent guidelines. All sensitive information shared by players and finance-related data is secured with advanced SSL encryption, similar to the security used by leading banks everywhere. By encryption, all data remains safe from any unapproved access and cyber-attacks.
+
+Along with strong security, the Nine Win Casino app encourages responsible gaming by making instruments available to players to control their playing habits. Among these are rules about how much money you can deposit, options to lock yourself out if needed, and tools for gamblers who may face trouble. A dedicated group of customer support members is present in the casino 24/7 to help players with any worries or doubts about their gaming security. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="">
+          <div class="container">
+            <div class="sprovidersBlock block">
+              <h2 class="sprovidersTitle title"> Software Providers </h2>
+              <div class="sprovidersGroup" id="providersContainer">
+                <!-- Provider images will be dynamically inserted here --></div>
+            </div>
+          </div>
+        </section>
+        <div class="applicationCircleContainer">
+          <section class="application" id="mobile">
+            <div class="container">
+              <div class="applicationBlock block">
+                <h2 class="applicationTitle title"> App </h2>
+                <div class="applicationGroup">
+                  <div class="applicationColumn">
+                    <p class="applicationDescription"> Although there is no mobile app to download, Nine Casino 2 has created a mobile site that is fully functional with any iOS or Android device. With this mobile site, players can easily enjoy thousands of games, manage their accounts, and take advantage of all the casino features on their smartphones or tablets. The mobile site is fast, easy to use, and has all the same features as the main site, so you can enjoy great games even when you are away from your computer. </p>
+                    <div class="applicationStoreGroup"><a id="appStoreAppLink" href="/"
+                      aria-label="Play game" target="_blank"><img class="advantagesStore"
+                        width="181" height="53" src="./assets/images/advantages/app-store.webp"
+                        alt="iOs App" /></a><a id="googlePlayAppLink" href="/"
+                        aria-label="Play game" target="_blank"><img class="applicationStore"
+                          width="181" height="54"
+                          src="./assets/images/advantages/google-play.webp"
+                          alt="android App" /></a></div>
+                  </div>
+                  <div class="applicationColumn"><img class="applicationMobilePhone"
+                    src="_assets/images/1751025998_mobile-app.webp" alt="Nine Casino Mobile" /></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="idiomas">
+            <div class="container">
+              <div class="idiomasBlock block">
+                <div class="idiomasGroup">
+                  <div class="idiomasColumn">
+                    <h2 class="idiomasTitle title"> Currencies </h2>
+                    <p class="idiomasDescription"> Players can use multiple currencies including British Pounds (GBP), US Dollars (USD), and Euros (EUR). </p>
+                  </div>
+                  <div class="idiomasColumn">
+                    <h2 class="idiomasTitle title"> Languages </h2>
+                    <p class="idiomasDescription"> The casino website is available in English, catering primarily to the UK and international players. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="faq">
+          <div class="container">
+            <div class="faqBlock block">
+              <h2 class="faqTitle title"><span>FAQ</span></h2>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="Is Nine Casino legal in the UK?" /><label
+                class="faqLabel" for="Is Nine Casino legal in the UK?"><span class="gradientContainer"> Is Nine Casino legal in the UK? </span></label>
+                <div class="faqContent">
+                  <p>Nine Casino is accessible to UK players but does not hold a UK Gambling Commission license. It operates under a Curacao license.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="What is the minimum deposit?" /><label
+                class="faqLabel" for="What is the minimum deposit?"><span class="gradientContainer"> What is the minimum deposit? </span></label>
+                <div class="faqContent">
+                  <p>The minimum deposit to qualify for bonuses is £30.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="How long do withdrawals take?" /><label
+                class="faqLabel" for="How long do withdrawals take?"><span class="gradientContainer"> How long do withdrawals take? </span></label>
+                <div class="faqContent">
+                  <p>E-wallet withdrawals are usually processed within 24 hours, while card and bank transfers can take 3-5 business days.</p>
+                </div>
+              </div>
+              <div class="faqGroup"><input class="faqInput" type="checkbox" id="Are there any wagering requirements?" /><label
+                class="faqLabel" for="Are there any wagering requirements?"><span class="gradientContainer"> Are there any wagering requirements? </span></label>
+                <div class="faqContent">
+                  <p>Yes, the welcome bonus has a 35x wagering requirement on both bonus and deposit amounts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="availableGames">
+          <div class="container">
+            <div class="availableGamesBlock block">
+              <h2 class="availableGamesTitle title"> Nine Win Casino Sister Sites Games Available to Play </h2>
+              <p class="availableGamesDescription"> The range of games is another advantage of Nine Casino. The site features slot machines, table games, jackpot games, and even live dealer games. Most options are available in demo mode without registration and deposit. Players with an account can also take part in tournaments. For convenience, all entertainment is divided into categories, there is also a filter where you can select a developer, table theme, and other parameters. </p>
+              <div class="availableGamesGroup">
+                <div class="availableGamesColumn">
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Slots </h3>
+                      <p class="availableGamesDescription"> With over 6,000 titles, Casino Nine offers everything from classic slots to the latest video slots. Popular games include Starburst, Book of the Dead, and Gates of Olympus. Slots with a buy feature contribute partially to wagering requirements. </p>
+                    </div>
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Live Dealer Games </h3>
+                      <p class="availableGamesDescription"> For players seeking authentic casino interaction, Nine Casino features live dealer games hosted by professional croupiers. Popular live options include Live Blackjack, Live Roulette, and Live Baccarat, all streamed in real-time to your device. </p>
+                    </div>
+                </div>
+                <div class="availableGamesColumn">
+                    <div class="availableGamesGame">
+                      <h3 class="availableGamesSubtitle subtitle"> Table Games </h3>
+                      <p class="availableGamesDescription"> Nine Casino provides a solid selection of table games including multiple variants of Blackjack, Roulette, Baccarat, and Poker. These games offer classic casino experiences suitable for both beginners and seasoned players. </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="support">
+          <div class="container">
+            <div class="supportBlock block">
+              <h2 class="supportTitle title"> Nine Bet Casino Support </h2>
+              <div class="supportGroup">
+                <div class="supportColumn">
+                  <p class="supportDescription"> Nine Casino provides 24/7 customer support through live chat and email (support@Nine Casino.com), ensuring players receive timely assistance with any issues or queries. </p>
+                  <ul class="supportList">
+                  </ul>
+                  <p class="supportDescription">  </p>
+                </div>
+                <div class="supportColumn"><img class="supportImage" src="_assets/images/1751026496_support.webp" 
+                  alt="Nine Bet Casino Support" /></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bonuses">
+          <div class="container">
+            <div class="bonusesBlock block">
+              <h2 class="bonusesTitle title"> Nine Win Casino Bonus Code and Promotions </h2>
+              <p class="bonusesDescription">  </p>
+              <div class="bonusesGroup">
+                <div class="bonusesColumn">
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Welcome Nine Casino Bonus </h3>
+                      <p class="bonusesDescription"> Nine Casino bonus code 2024 gives you a great welcome package on your first three deposits.
+
+On your first deposit, your deposit will be matched by 100%, up to £250, and you will also be given 150 free spins on popular slots such as Starburst and Book of Dead.
+An even better incentive: your second deposit entitles you to a 55% bonus, up to £250, plus you get an additional 150 free spins.
+Your third deposit is matched 100% up to £150, but you will not find any free spins in this bonus.
+Your welcome bonus has a 7-day usage time and a wagering requirement of 35x the bonus plus deposit, which is competitive compared to many casinos. </p>
+                  </div>
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> High Roller Bonus </h3>
+                      <p class="bonusesDescription"> If you're looking for an extra bit of risk, high rollers at Nine Casino can claim a 50% bonus up to £500 by entering the promo code. This bonus can only be claimed once per week and expires 3 days after you claim it. </p>
+                  </div>
+                </div>
+                <div class="bonusesColumn">
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Nine Casino Promo Code UK 2024 and Daily Cashback </h3>
+                      <p class="bonusesDescription"> Every day, Nine Casino's system gives players back a percentage of their previous day's losses, depending on how they funded their account.
+
+A deposit of between £20 and £500 will give you up to £25 cashback.
+If you deposit between £501 and £1,000, you'll get up to £60 cashback.
+For credits, where the deposit is between £1,001 and £2,500, you can get up to £200 cashback.
+Those who deposit between £2,501 and £5,000 will get up to £500 cashback.
+If you deposit over £5,001, you're eligible to receive up to £1,250 cashback at 12.15%.
+VIP players can also get up to 25% cashback as an invite. </p>
+                    </div>
+                    <div class="bonusesColumnBonus">
+                      <h3 class="bonusesSubtitle subtitle"> Nine Casino Free Chip the Wheel </h3>
+                      <p class="bonusesDescription"> Players who make in-game purchases can get a chance to spin the wheel and get free coins, more spins, and rewards in the mini-games section. Bonuses allow players to try to win more and extend their casino experience, while the Nine Casino app encourages its users to make deposits and stay active. </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="prosAndCons">
+          <div class="container">
+            <div class="prosAndConsBlock block">
+              <h2 class="prosAndConsTitle title"> Nine Casino Advantages </h2>
+              <p class="prosAndConsDescription"> Before registering, players are advised to study the advantages of the gambling platform. Below are all the pros and cons. </p>
+              <div class="prosAndConsGroup">
+                <div class="prosAndConsColumn">
+                  <h3 class="prosAndConsSubtitle subtitle"> Pros </h3>
+                  <ul class="prosAndConsList">
+                      <li class="prosAndConsItem">Curacao license</li>
+                      <li class="prosAndConsItem">Wide selection of games</li>
+                      <li class="prosAndConsItem">100% Welcome bonus</li>
+                      <li class="prosAndConsItem">Cashback for loyal players</li>
+                      <li class="prosAndConsItem">24/7 customer support</li>
+                  </ul>
+                </div>
+                <div class="prosAndConsColumn">
+                  <h3 class="prosAndConsSubtitle subtitle"> Cons </h3>
+                  <ul class="prosAndConsList">
+                      <li class="prosAndConsItem">No mobile application</li>
+                      <li class="prosAndConsItem">No contact by phone number</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footerContainer">
+        <div class="footerTop">
+          <div class="footerLogoContainer"><a href="/" aria-label="Main page"><img class="footer__logo"
+            src="https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9568bf57.svg&amp;w=142&amp;q=75" alt="" width="140"
+            height="48" /></a></div>
+          <div class="footerPay">
+            <div class="payBlock"><img class="payElementGrey"
+              src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                alt="MasterCard" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+              alt="Visa" /><img class="payElementColor"
+                src="./assets/images/footer/payment/visa--color.svg" alt="Visa" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+              alt="Neteller" /><img class="payElementColor"
+                src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+              alt="Skrill" /><img class="payElementColor"
+                src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+              alt="Bitcoin" /><img class="payElementColor"
+                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+              alt="Litecoin" /><img class="payElementColor"
+                src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" /></div>
+            <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+              alt="Etherium" /><img class="payElementColor"
+                src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" /></div>
+          </div>
+        </div>
+        <div class="footerMiddle">
+          <div class="footerOperator">
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                alt="GPWA" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                alt="Gamble Aware" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                alt="Game care" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                class="operatorElementColor"
+                src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" />
+            </div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                alt="Gamban" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                alt="BetBlocker" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                alt="ITech Labs" /></div>
+            <div class="operatorBlock"><img class="operatorElementGrey"
+              src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                alt="Ecogra" /></div>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <div class="footerBottomGroup">
+            <p class="footerBottomAge">18+</p>
+            <p class="footerBottomCopyright">Copyright © 2025 Paf Casino </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    var playButtonSrc = "./assets/images/games/playButton.svg"
+    var informationOutlineSrc = "./assets/images/bonuses/information-outline.svg"
+  </script>
+</html>
